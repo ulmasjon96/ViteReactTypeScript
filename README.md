@@ -73,3 +73,49 @@ export default defineConfig([
 	},
 ]);
 ```
+
+<div align="center">
+
+# ⚡ Vite + React + TypeScript Starter
+
+🚀 Zamonaviy, tez va kengaytiriladigan front-end shablon
+🧠 Qurilgan: **Vite + React + TypeScript**
+
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-149ECA?logo=react&logoColor=fff)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-222222?logo=github)](https://ulmasjon96.github.io/ViteReactTypeScript/)
+
+</div>
+
+---
+
+## 🌐 Live Demo
+
+🎯 **Saytni ko‘rish:**
+🔗 [https://ulmasjon96.github.io/ViteReactTypeScript/](https://ulmasjon96.github.io/ViteReactTypeScript/)
+
+---
+
+## 📖 Loyihaning tavsifi
+
+Bu loyiha — **Vite**, **React** va **TypeScript** asosida qurilgan **zamonaviy front-end shablon**.
+U tezkor development server, modular komponentlar, toza kod arxitekturasi va professional konfiguratsiyani o‘z ichiga oladi.
+
+---
+
+## 🧩 Texnologiyalar
+
+| Texnologiya               | Maqsadi                                     |
+| ------------------------- | ------------------------------------------- |
+| ⚡ **Vite**               | Tezkor development server va build tizimi   |
+| ⚛️ **React**              | UI komponentlarini yaratish uchun kutubxona |
+| 🧠 **TypeScript**         | Xatolarga chidamli, turlarga ega JavaScript |
+| 🧹 **ESLint + Prettier**  | Kod sifatini va tozaligini ta’minlash       |
+| 🧭 **React Router**       | Sahifalar orasida navigatsiya               |
+| 🎨 **SCSS / CSS Modules** | Modular va oson boshqariladigan stillar     |
+
+---
+
+## 🗂 Loyihaning struktura tuzilmasi
