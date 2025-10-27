@@ -1,0 +1,51 @@
+📦 2. Asosiy kutubxonalar
+Kutubxona	Maqsadi	O‘rnatish	Izoh
+react va react-dom	React komponentlar ishlashi uchun	(Vite avtomatik o‘rnatadi)	React’ning yuragi va DOM bilan ishlash uchun
+typescript	TypeScript kodini tahlil qiladi	(Vite avtomatik o‘rnatadi)	.tsx fayllar uchun majburiy
+@types/react, @types/react-dom	TypeScript uchun turlarni beradi	npm i -D @types/react @types/react-dom	TypeScript React’ni tanib oladi
+vite	Tez build va dev server	(Avtomatik)	Webpack’ga o‘xshash, lekin 10x tezroq
+🎨 3. UI va Styling kutubxonalari
+Kutubxona	Maqsadi	O‘rnatish	Izoh
+tailwindcss	Zamonaviy, utility-based CSS framework	npm i -D tailwindcss postcss autoprefixer	Juda mashhur, Vite bilan mos
+@emotion/react + @emotion/styled	CSS-in-JS yechimi	npm i @emotion/react @emotion/styled	Material UI bilan ishlaydi
+styled-components	Komponent ichida CSS yozish	npm i styled-components + npm i -D @types/styled-components	Juda keng qo‘llanadi
+sass	SCSS uchun	npm i -D sass	.scss fayllarni to‘g‘ridan-to‘g‘ri import qilishingiz mumkin
+🧱 4. UI kutubxonalari (komponentlar uchun)
+Kutubxona	Maqsadi	O‘rnatish	Izoh
+MUI (Material UI)	Tayyor professional komponentlar	npm i @mui/material @emotion/react @emotion/styled	Responsive dizayn uchun mukammal
+Ant Design	Korporativ UI komponentlar	npm i antd	Juda katta komponent to‘plami
+Shadcn/UI	Tailwind asosidagi zamonaviy komponentlar	npx shadcn-ui init	Minimalistik, developer-friendly
+Chakra UI	Oson va moslashuvchan komponentlar	npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion	Yengil va TypeScript bilan mukammal ishlaydi
+⚙️ 5. Router va navigatsiya
+Kutubxona	Maqsadi	O‘rnatish	Izoh
+react-router-dom	Sahifalar orasida navigatsiya	npm i react-router-dom	TypeScript bilan to‘liq mos
+📡 6. Ma’lumot olish (API bilan ishlash)
+Kutubxona	Maqsadi	O‘rnatish	Izoh
+axios	API so‘rovlarini yuborish	npm i axios	Fetch’ga nisbatan qulayroq
+react-query (yoki @tanstack/react-query)	Server state boshqaruvi	npm i @tanstack/react-query	Caching, refetch, loading states
+zustand	Kichik global state management	npm i zustand	Redux’ga nisbatan yengilroq
+🧠 7. State management (katta loyihalar uchun)
+Kutubxona	Maqsadi	O‘rnatish	Izoh
+redux + @reduxjs/toolkit	Keng miqyosli state boshqaruvi	npm i @reduxjs/toolkit react-redux	Eng mashhur va standart
+recoil	React uchun yengil state manager	npm i recoil	Hooks bilan ishlaydi
+zustand	Minimal state boshqaruv	npm i zustand	Juda soddaligi bilan mashhur
+🧰 8. Qo‘shimcha foydali kutubxonalar
+Kutubxona	Maqsadi	O‘rnatish	Izoh
+clsx	Dinamik klass nomlarini boshqarish	npm i clsx	className={clsx('btn', active && 'btn-active')}
+framer-motion	Animatsiyalar va sahifa o‘tish effekti	npm i framer-motion	React bilan mukammal integratsiya
+dayjs yoki date-fns	Sana va vaqt bilan ishlash	npm i dayjs	Moment.js’ga yengil alternativa
+react-icons	Belgilar to‘plami	npm i react-icons	Har qanday UI uchun piktogrammalar
+zod yoki yup	Ma’lumot validatsiyasi	npm i zod	Form va API validatsiyasi uchun
+react-hook-form	Formlar boshqaruvi	npm i react-hook-form	TypeScript bilan mukammal integratsiya
+🧑‍💻 9. Ishlab chiqish qulayligi uchun
+Kutubxona	Maqsadi	O‘rnatish	Izoh
+eslint	Kod sifatini tekshirish	npm i -D eslint	Kodni silliq saqlaydi
+prettier	Kod formatlash	npm i -D prettier	Kod bir xil formatda bo‘ladi
+husky + lint-staged	Git commitda avtomatik lint/format	npm i -D husky lint-staged	Kod sifatini saqlaydi
+vite-plugin-svgr	SVG fayllarni komponent sifatida ishlatish	npm i vite-plugin-svgr	<Logo /> tarzida SVG import qilish
+🧩 10. Misol: Minimal foydali to‘plam
+
+Agar siz eng zarur kutubxonalarni xohlaysiz, quyidagilar kifoya:
+
+npm i react-router-dom axios @tanstack/react-query zustand clsx react-icons framer-motion
+npm i -D eslint prettier
