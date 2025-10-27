@@ -47,5 +47,6 @@ vite-plugin-svgr	SVG fayllarni komponent sifatida ishlatish	npm i vite-plugin-sv
 
 Agar siz eng zarur kutubxonalarni xohlaysiz, quyidagilar kifoya:
 
-npm i react-router-dom axios @tanstack/react-query zustand clsx react-icons framer-motion
-npm i -D eslint prettier
+
+npm i react-router-dom axios @tanstack/react-query zustand clsx react-icons framer-motion react-hook-form zod dayjs
+npm i -D eslint prettier vite-plugin-svgr vite-tsconfig-paths
